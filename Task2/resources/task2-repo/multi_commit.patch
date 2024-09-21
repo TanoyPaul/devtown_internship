@@ -1,0 +1,143 @@
+From ffdcd0ba6956c8fceb4d47f6870b01e01c95130f Mon Sep 17 00:00:00 2001
+From: Tanoy Paul <tanoypaul23@gmail.com>
+Date: Sat, 21 Sep 2024 08:44:41 +0530
+Subject: [PATCH] task2 folder added again
+
+---
+ .../4.1. Task 2 Guide.pdf                           | Bin
+ .../4.2 How to Make a Patch File.pdf                | Bin
+ .../4.3 - Task 2 Solution Preview.mp4               | Bin
+ .../task2-repo}/.gitignore                          |   0
+ .../task2-repo}/README.md                           |   0
+ .../task2-repo}/datafeed/requirements.txt           |   0
+ .../task2-repo}/datafeed/server3.py                 |   0
+ .../task2-repo}/datafeed/test.csv                   |   0
+ .../task2-repo}/package-lock.json                   |   0
+ .../task2-repo}/package.json                        |   0
+ .../task2-repo}/public/index.html                   |   0
+ .../task2-repo}/src/App.css                         |   0
+ .../task2-repo}/src/App.test.js                     |   0
+ .../task2-repo}/src/App.tsx                         |   0
+ .../task2-repo}/src/DataStreamer.ts                 |   0
+ .../task2-repo}/src/Graph.css                       |   0
+ .../task2-repo}/src/Graph.tsx                       |   0
+ .../task2-repo}/src/index.css                       |   0
+ .../task2-repo}/src/index.tsx                       |   0
+ .../task2-repo}/src/react-app-env.d.ts              |   0
+ .../task2-repo}/test.csv                            |   0
+ .../task2-repo}/tsconfig.json                       |   0
+ 22 files changed, 0 insertions(+), 0 deletions(-)
+ rename Task2/{4. Task Resources => resources}/4.1. Task 2 Guide.pdf (100%)
+ rename Task2/{4. Task Resources => resources}/4.2 How to Make a Patch File.pdf (100%)
+ rename Task2/{4. Task Resources => resources}/4.3 - Task 2 Solution Preview.mp4 (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/.gitignore (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/README.md (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/datafeed/requirements.txt (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/datafeed/server3.py (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/datafeed/test.csv (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/package-lock.json (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/package.json (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/public/index.html (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/App.css (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/App.test.js (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/App.tsx (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/DataStreamer.ts (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/Graph.css (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/Graph.tsx (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/index.css (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/index.tsx (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/src/react-app-env.d.ts (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/test.csv (100%)
+ rename Task2/{4. Task Resources/JPMC - Repo - Task 2 => resources/task2-repo}/tsconfig.json (100%)
+
+diff --git a/Task2/4. Task Resources/4.1. Task 2 Guide.pdf b/Task2/resources/4.1. Task 2 Guide.pdf
+similarity index 100%
+rename from Task2/4. Task Resources/4.1. Task 2 Guide.pdf
+rename to Task2/resources/4.1. Task 2 Guide.pdf
+diff --git a/Task2/4. Task Resources/4.2 How to Make a Patch File.pdf b/Task2/resources/4.2 How to Make a Patch File.pdf
+similarity index 100%
+rename from Task2/4. Task Resources/4.2 How to Make a Patch File.pdf
+rename to Task2/resources/4.2 How to Make a Patch File.pdf
+diff --git a/Task2/4. Task Resources/4.3 - Task 2 Solution Preview.mp4 b/Task2/resources/4.3 - Task 2 Solution Preview.mp4
+similarity index 100%
+rename from Task2/4. Task Resources/4.3 - Task 2 Solution Preview.mp4
+rename to Task2/resources/4.3 - Task 2 Solution Preview.mp4
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/.gitignore b/Task2/resources/task2-repo/.gitignore
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/.gitignore
+rename to Task2/resources/task2-repo/.gitignore
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/README.md b/Task2/resources/task2-repo/README.md
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/README.md
+rename to Task2/resources/task2-repo/README.md
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/datafeed/requirements.txt b/Task2/resources/task2-repo/datafeed/requirements.txt
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/datafeed/requirements.txt
+rename to Task2/resources/task2-repo/datafeed/requirements.txt
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/datafeed/server3.py b/Task2/resources/task2-repo/datafeed/server3.py
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/datafeed/server3.py
+rename to Task2/resources/task2-repo/datafeed/server3.py
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/datafeed/test.csv b/Task2/resources/task2-repo/datafeed/test.csv
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/datafeed/test.csv
+rename to Task2/resources/task2-repo/datafeed/test.csv
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/package-lock.json b/Task2/resources/task2-repo/package-lock.json
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/package-lock.json
+rename to Task2/resources/task2-repo/package-lock.json
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/package.json b/Task2/resources/task2-repo/package.json
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/package.json
+rename to Task2/resources/task2-repo/package.json
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/public/index.html b/Task2/resources/task2-repo/public/index.html
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/public/index.html
+rename to Task2/resources/task2-repo/public/index.html
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/App.css b/Task2/resources/task2-repo/src/App.css
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/App.css
+rename to Task2/resources/task2-repo/src/App.css
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/App.test.js b/Task2/resources/task2-repo/src/App.test.js
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/App.test.js
+rename to Task2/resources/task2-repo/src/App.test.js
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/App.tsx b/Task2/resources/task2-repo/src/App.tsx
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/App.tsx
+rename to Task2/resources/task2-repo/src/App.tsx
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/DataStreamer.ts b/Task2/resources/task2-repo/src/DataStreamer.ts
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/DataStreamer.ts
+rename to Task2/resources/task2-repo/src/DataStreamer.ts
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/Graph.css b/Task2/resources/task2-repo/src/Graph.css
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/Graph.css
+rename to Task2/resources/task2-repo/src/Graph.css
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/Graph.tsx b/Task2/resources/task2-repo/src/Graph.tsx
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/Graph.tsx
+rename to Task2/resources/task2-repo/src/Graph.tsx
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/index.css b/Task2/resources/task2-repo/src/index.css
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/index.css
+rename to Task2/resources/task2-repo/src/index.css
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/index.tsx b/Task2/resources/task2-repo/src/index.tsx
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/index.tsx
+rename to Task2/resources/task2-repo/src/index.tsx
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/src/react-app-env.d.ts b/Task2/resources/task2-repo/src/react-app-env.d.ts
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/src/react-app-env.d.ts
+rename to Task2/resources/task2-repo/src/react-app-env.d.ts
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/test.csv b/Task2/resources/task2-repo/test.csv
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/test.csv
+rename to Task2/resources/task2-repo/test.csv
+diff --git a/Task2/4. Task Resources/JPMC - Repo - Task 2/tsconfig.json b/Task2/resources/task2-repo/tsconfig.json
+similarity index 100%
+rename from Task2/4. Task Resources/JPMC - Repo - Task 2/tsconfig.json
+rename to Task2/resources/task2-repo/tsconfig.json
+-- 
+2.39.2.windows.1
+
